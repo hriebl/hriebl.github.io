@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Hannes schreibt"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/hriebl
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+
+lang: de
